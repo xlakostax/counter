@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+#wrapper {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+#buttonHolder {
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 50%;
+  margin: 0 auto;
+}
+
+.nums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+p {
+  display: block;
+  font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid #2e2e2e;
+  margin: 0 1em;
+}
